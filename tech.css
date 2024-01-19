@@ -80,6 +80,19 @@ main , footer{
   height: 40rem;
 }
 
+.photo-text , .img-example{
+  height: 100%;
+  width: 50%;
+}
+
+.img-example{
+  justify-content: flex-end;
+}
+
+.photo-text{
+  justify-content: flex-start;
+}
+
 .img-example img{
   height: 30rem ;
 }
@@ -383,16 +396,40 @@ footer{
     height: 5rem;
   }
 
+  .photo{
+    flex-direction: column;
+    align-items: center;
+    height: 25rem;
+  }
+
+  .img-example{
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .photo-text{
+    height: 50%;
+    width: 90%;
+    justify-content: center;
+  }
+
   .img-example img {
-    height: 10rem;
+    height: 16rem;
+  }
+
+  .photo-text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .photo-text-box h3 {
-    font-size: 1.45rem;
+    font-size: 1.5rem;
   }
 
   .photo-text-box button {
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
 
   .pros-svg img {
@@ -449,8 +486,12 @@ footer{
    font-size: 0.95rem;
   }
 
+  .img-example img {
+    height: 14rem;
+  }
+
   .photo-text-box h3 {
-    font-size: 1.05rem;
+    font-size: 1.25rem;
   }
 
   .pros h3 {
