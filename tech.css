@@ -211,11 +211,13 @@ footer{
 }
 
 @keyframes slideInRight {
-	0% {
+	0% {	
+		opacity: 0;
 		transform: translateX(100px);
 	}
 
-	100% {
+	100% {	
+		opacity: 1;
 		transform: translateX(0);
 	}
 }
